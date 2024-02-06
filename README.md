@@ -1,7 +1,12 @@
 # Snowpark 101
 
+<img src="./images/SnowparkIcon.png" alt="Snowpark Flow Overview" style="width:30%;display:block;margin:0 auto;" />
+
+
 # Contenido
-- Mostrar como usar Snowflake Snowpark con Python
+## Mostrar como usar Snowflake Snowpark con Python
+
+- Script para crear objetos Snowflake antes de ejecutar los Notebooks
 
 ```sql
 

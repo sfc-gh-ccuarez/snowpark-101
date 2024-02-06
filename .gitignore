@@ -1,5 +1,4 @@
 #dependencias
-/images
 .DS_Store
 __pycache__
 credenciales.py
