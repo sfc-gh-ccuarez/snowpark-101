@@ -4,9 +4,9 @@
 
 
 # Contenido
-## Mostrar como usar Snowflake Snowpark con Python
+- Mostrar como usar Snowflake Snowpark con Python
 
-- Script para crear objetos Snowflake antes de ejecutar los Notebooks
+## 1 Script para crear objetos Snowflake antes de ejecutar los Notebooks
 
 ```sql
 
@@ -55,6 +55,28 @@ grant usage on warehouse python_wh to role devrole;
 
 ```
 
+
+## 2 Creación de ambiente de desarrollo
+- Ya instalado Anaconda, Python (3.10), se crea el ambiente de desarrollo 
+```bash
+
+conda env create -f ambiente.yml
+
+```
+
+## 2.1 Activación de ambiente de desarrollo
+
+```bash
+
+conda activate  snowpark101
+
+```
+
+## 3 Uso de Notebook conexion.ipynb
+- En este script se muestran los pasos para cargar archivo CSVy uso de Snowpark framework
+
+
+## 4 Validación en Snowflake de carga de datos
 - Script para validar data en los objetos
 
 ```sql
@@ -65,11 +87,11 @@ use role devrole;
 
 select * from ORDERS_TBL limit 10;
 
-select * from SP2023.PUBLIC.TOP_5_TBL;
+-- select * from SP2023.PUBLIC.TOP_5_TBL;
 
 ```
 
-
+## 5 Limpieza
 - Script para limpieza de objetos
 
 ```sql
